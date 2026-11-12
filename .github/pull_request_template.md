@@ -20,3 +20,4 @@
 - [ ] I have updated the documentation (if applicable)
 - [ ] My commits include a `Signed-off-by:` line (DCO compliance)
 - [ ] My commits are signed with a GPG or SSH key registered on GitHub (`git commit -S`)
+- [ ] I have signed the [CLA](../CLA.md) (the CLA bot will prompt me on this PR if not)

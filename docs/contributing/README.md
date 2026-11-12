@@ -218,6 +218,10 @@ Using `-s` with `git commit` will automatically add this header.
 
 `main` requires signed commits, so every commit must also carry a GPG or SSH signature from a key registered on your GitHub account. Sign with `git commit -s -S`, or set `git config commit.gpgsign true` once. See [GitHub's guide to signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
 
+### Contributor License Agreement
+
+You must also sign the <gh-file:CLA.md>. On your first pull request the CLA bot posts a comment; reply with the sentence it asks for (`I have read the CLA Document and I hereby sign the CLA`). Your signature is recorded once and covers later pull requests. Comment `recheck` to re-run the check.
+
 ## Additional Resources
 
 - [vLLM Documentation](https://docs.vllm.ai/)
