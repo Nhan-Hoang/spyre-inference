@@ -1,0 +1,18 @@
+name: CLA
+
+# The CLA action only reports on `pull_request_target`, so a queued PR's
+# `merge_group` event would leave the required "CLA" check pending forever.
+# Same approach as dco-merge-queue.yml: emit a passing check with the same name.
+on:
+  merge_group:
+    types: [checks_requested]
+
+permissions:
+  contents: read
+
+jobs:
+  CLA:
+    name: CLA          # must exactly match the job name in cla.yml
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CLA is enforced on the PR; the merge queue merges the same reviewed commits, so passing here."

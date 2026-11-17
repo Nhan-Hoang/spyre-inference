@@ -225,6 +225,9 @@ After each green CI run on a PR, the `ci-time-report` workflow compares the run'
 ```bash
 uv run --no-project --with pyyaml python3 .github/scripts/ci_time_report.py report --pr <number>
 ```
+### Contributor License Agreement
+
+You must also sign the <gh-file:CLA.md>. On your first pull request the CLA bot posts a comment; reply with the sentence it asks for (`I have read the CLA Document and I hereby sign the CLA`). Your signature is recorded once and covers later pull requests. Comment `recheck` to re-run the check.
 
 ## Additional Resources
 
